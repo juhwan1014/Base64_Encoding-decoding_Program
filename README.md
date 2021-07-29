@@ -3,7 +3,7 @@
 ## 1. Project Introduction<br />
 The program I implemented is a program that decodes 64Base characters into ASKII characters, and in contrast encodes ASKII characters into 64Base characters. It is a program that receives input to initially encode or decode and executes a program that meets its purpose, followed by a string to encode or decode.<br /><br />
 
-## 2. What is Base64?
+## 2. What is Base64? 
 
 Base 64 (Base Sixty) is a concept that converts 8-bit binary data (e.g., executables, ZIP files, etc.) into a series of strings consisting only of characters in a common ASCII domain that are not affected by character code.<br />
 Originally, a literal translation of Base 64 means 64 digits. What is particularly interesting about 64 in computers is that 64 is the number of squares of 2 (64 = 26) and is the largest representation of the ASCII characters displayed on the screen among the equations based on the number of squares of 2. The next square number, 128 digits, requires 128 symbols, but not 128 ASCII characters on the screen.<br />
